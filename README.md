@@ -2,7 +2,7 @@
 全新的高颜值/高性能的AI模型接口管理与分发系统
 
 > [!NOTE]
-> 本项目为开源项目，在[NewAPI](https://github.com/Calcium-Ion/new-api) & [OneAPI](https://github.com/songquanpeng/one-api)的基础上进行二次开发
+> 本项目在[NewAPI](https://github.com/Calcium-Ion/new-api) & [OneAPI](https://github.com/songquanpeng/one-api)的基础上进行二次开发
 
 > [!IMPORTANT]
 > 使用者必须在遵循 OpenAI 的[使用条款](https://openai.com/policies/terms-of-use)以及**法律法规**的情况下使用，不得用于非法用途。
