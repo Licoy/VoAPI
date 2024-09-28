@@ -81,6 +81,30 @@ docker-compose up -d
 ```
 访问`http://ip:3000`即可看到登录界面，输入默认账号密码即可登录。
 
+## 首页模板配置属性
+- `name`：`string` 标题
+- `desc`：`string` 描述
+- `bgImg`：`string` 首页第一栏右侧图片
+- `hideAiModels`：`bool` 是否隐藏AI模型
+- `aiTitle`：`string` AI模型标题
+- `aiModels`：`array` AI模型列表
+    - `name`：`string` AI模型名称
+    - `link`：`string` AI模型描述
+    - `img`：`string` AI模型图片
+- `hidePlatforms`：`bool` 是否隐藏平台
+- `platformsTitle`：`string` 平台标题
+- `platforms`：`array` 平台列表
+    - `name`：`string` 平台名称
+    - `link`：`string` 平台描述
+    - `img`：`string` 平台图片
+- `stepsImg`：`string` 步骤左侧图片
+- `steps`：`array` 步骤列表
+    - `name`：`string` 步骤名称
+    - `desc`：`string` 步骤描述
+-  `qas`：`array` 问答列表
+    - `question`：`string` 问题
+    - `answer`：`string` 答案
+
 ## 加群交流
 > 您也可以扫描下方二维码加入QQ交流群以获取最新的开发动态和相关事件
 > 
