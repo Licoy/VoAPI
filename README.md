@@ -2,24 +2,15 @@
 全新的高颜值/高性能的AI模型接口管理与分发系统
 
 > [!NOTE]
-> 本项目在[NewAPI](https://github.com/Calcium-Ion/new-api) & [OneAPI](https://github.com/songquanpeng/one-api)的基础上进行二次开发
+> 本项目在 [NewAPI](https://github.com/Calcium-Ion/new-api) & [OneAPI](https://github.com/songquanpeng/one-api) 的基础上进行二次开发
 
 > [!IMPORTANT]
-> 使用者必须在遵循 OpenAI 的[使用条款](https://openai.com/policies/terms-of-use)以及**法律法规**的情况下使用，不得用于非法用途。
+> 使用者必须在遵循上游AI模型服务提供商以及**法律法规**的情况下使用，不得用于非法用途。
 > 本项目仅供个人学习使用，不保证稳定性，且不提供任何技术支持。
 > 根据[《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)的要求，请勿对中国地区公众提供一切未经备案的生成式人工智能服务。
 
-> [!TIP]
-> 最新版Docker镜像：`licoy/voapi:latest`  
-> 默认账号`root`
-> 密码`123456`
-> 更新指令：
-> ```
-> docker run --rm -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower -cR
-> ```
-
 > [!WARNING]
-> 本系统为闭源免授权使用，仅供个人或者组织团队内部管理与分发渠道使用，请勿用于任何商业用途。
+> 本系统为闭源免授权使用，仅供个人学习使用，请勿用于任何商业用途。
 
 ## 差异说明
 > 本系统与NewAPI的差异主要在于：
@@ -75,11 +66,18 @@ services:
     restart: always
 
 ```
+
 启动服务：
 ```
 docker-compose up -d
 ```
-访问`http://ip:3000`即可看到登录界面，输入默认账号密码即可登录。
+访问`http://ip:3000`即可看到登录界面，输入账号密码即可登录（默认账号：root，默认密码：123456）。
+
+
+若有版本更新，您可以通过以下命令更新并重启服务：
+```
+docker-compose pull && docker-compose up -d
+```
 
 ## 首页模板配置属性
 - `name`：`string` 标题
