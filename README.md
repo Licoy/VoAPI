@@ -11,7 +11,8 @@
 
 > [!TIP]
 > 最新版Docker镜像：`licoy/voapi:latest`  
-> 默认账号root 密码123456  
+> 默认账号`root`
+> 密码`123456`
 > 更新指令：
 > ```
 > docker run --rm -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower -cR
@@ -80,6 +81,14 @@ docker-compose up -d
 ```
 访问`http://ip:3000`即可看到登录界面，输入默认账号密码即可登录。
 
+## 加群交流
+> 您也可以扫描下方二维码加入QQ交流群以获取最新的开发动态和相关事件
+> 
+> 点击链接加入群聊：https://qm.qq.com/q/QFibUxMPEQ
+
+<img width="235" alt="image" src="https://github.com/user-attachments/assets/d4798bae-03e5-4fce-aa03-e6dadd9ac748">
+
+
 ## 界面截图
 ### PC端
 - 首页
@@ -91,12 +100,6 @@ docker-compose up -d
 - 配置页面
 ![](./images/5.png)
 ### 移动端
+- 首页
 ![](./images/3.png)
-
-## 加群交流
-> 您也可以扫描下方二维码加入QQ交流群以获取最新的开发动态和相关事件
-> 
-> 点击链接加入群聊：https://qm.qq.com/q/QFibUxMPEQ
-<img width="235" alt="image" src="https://github.com/user-attachments/assets/d4798bae-03e5-4fce-aa03-e6dadd9ac748">
-
 
