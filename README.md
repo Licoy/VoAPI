@@ -85,6 +85,8 @@ docker-compose up -d
 - `name`：`string` 标题
 - `desc`：`string` 描述
 - `bgImg`：`string` 首页第一栏右侧图片
+- `notes`：`array` 打字机说明列表
+    - `string` 说明文字
 - `hideAiModels`：`bool` 是否隐藏AI模型
 - `aiTitle`：`string` AI模型标题
 - `aiModels`：`array` AI模型列表
