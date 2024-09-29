@@ -27,6 +27,8 @@
 - [x] 新版本在线检测支持
 - [x] 清空本地缓存支持
 - [x] 重构移动端菜单为弹出侧边栏展示
+- [x] 增加C#的[trueai-org/midjourney-proxy](https://github.com/trueai-org/midjourney-proxy)支持
+- [x] 增加用户管理列表邮箱显示
 - [ ] 增加易支付自定义渠道支持
 - [ ] 增加第三方AI客户端动态嵌入支持
 - [ ] 增加Flux API的支持
