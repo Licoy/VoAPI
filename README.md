@@ -29,7 +29,9 @@
 - [x] 重构移动端菜单为弹出侧边栏展示
 - [x] 增加C#的[trueai-org/midjourney-proxy](https://github.com/trueai-org/midjourney-proxy)支持
 - [x] 增加用户管理列表邮箱显示
-- [ ] 增加易支付自定义渠道支持
+- [x] 增加登录/对话/绘画IP记录
+- [x] 增加签到功能支持
+- [x] 增加易支付自定义渠道支持
 - [ ] 增加第三方AI客户端动态嵌入支持
 - [ ] 增加Flux API的支持
 - [ ] 增加StabilityAI API的支持
