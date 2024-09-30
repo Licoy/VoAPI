@@ -111,8 +111,8 @@ docker-compose pull && docker-compose up -d
     - `name`：`string` 步骤名称
     - `desc`：`string` 步骤描述
 -  `qas`：`array` 问答列表
-    - `question`：`string` 问题
-    - `answer`：`string` 答案
+    - `q`：`string` 问题
+    - `a`：`string` 答案
 
 ## 加群交流
 > 您也可以扫描下方二维码加入QQ交流群以获取最新的开发动态和相关事件
