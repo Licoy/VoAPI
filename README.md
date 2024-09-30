@@ -32,6 +32,7 @@
 - [x] 增加登录/对话/绘画IP记录
 - [x] 增加签到功能支持
 - [x] 增加易支付自定义渠道支持
+- [x] 增加MJ渠道模型的relax/fast/turbo区分
 - [ ] 增加第三方AI客户端动态嵌入支持
 - [ ] 增加Flux API的支持
 - [ ] 增加StabilityAI API的支持
