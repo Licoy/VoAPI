@@ -119,6 +119,26 @@ docker-compose pull && docker-compose up -d
     - `q`：`string` 问题
     - `a`：`string` 答案
 
+## 模型信息示例
+```json
+{
+	"gpt-3.5-turbo": {
+		"note": "这是OpenAI的模型，介绍可以自定义",
+		"icon": "/index/platforms/voapi-p-3.png",
+		"tags": "对话|低价|OpenAI",
+		"group": "OpenAI",
+		"group_icon": "/index/ai/voapi-1.ico"
+	},
+  "gpt-4": {
+		"note": "这是OpenAI的模型，介绍可以自定义",
+		"icon": "/index/ai/voapi-1.ico",
+		"tags": "对话|评分高|OpenAI",
+		"group": "OpenAI",
+		"group_icon": "/index/ai/voapi-1.ico"
+	}
+}
+```    
+
 ## 加群交流
 > 您也可以扫描下方二维码加入QQ交流群以获取最新的开发动态和相关事件
 > 
