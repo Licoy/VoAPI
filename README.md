@@ -33,10 +33,12 @@
 - [x] 增加签到功能支持
 - [x] 增加易支付自定义渠道支持
 - [x] 增加MJ渠道模型的relax/fast/turbo区分
-- [x] 增增加全站模型汇率配置
-- [x] 增增加模型价格页计量单位与货币单位切换显示
-- [x] 增增加模型价格页倍率切换显示
-- [x] 增增加模型价格页模型信息（模型图标、介绍、标签、归属厂商、归属厂商图标）展示支持
+- [x] 增加全站模型汇率配置
+- [x] 增加模型价格页计量单位与货币单位切换显示
+- [x] 增加模型价格页倍率切换显示
+- [x] 增加模型价格页模型信息（模型图标、介绍、标签、归属厂商、归属厂商图标）展示支持
+- [x] 增加模型厂商滚动选项栏分组
+- [x] 增加模型价格页厂商切换时显示对应的介绍与公告
 - [ ] 增加第三方AI客户端动态嵌入支持
 - [ ] 增加Flux API的支持
 - [ ] 增加StabilityAI API的支持
@@ -119,22 +121,32 @@ docker-compose pull && docker-compose up -d
     - `q`：`string` 问题
     - `a`：`string` 答案
 
-## 模型信息示例
+## 模型信息/厂商信息示例
+- 模型信息
 ```json
 {
 	"gpt-3.5-turbo": {
-		"note": "这是OpenAI的模型，介绍可以自定义",
+		"note": "这是OpenAI的模型，介绍可以自定义 **支持markdown**",
 		"icon": "/index/platforms/voapi-p-3.png",
 		"tags": "对话|低价|OpenAI",
-		"group": "OpenAI",
-		"group_icon": "/index/ai/voapi-1.ico"
+		"group": "openai"
 	},
   "gpt-4": {
-		"note": "这是OpenAI的模型，介绍可以自定义",
+		"note": "这是OpenAI的模型，介绍可以自定义 **支持markdown**",
 		"icon": "/index/ai/voapi-1.ico",
 		"tags": "对话|评分高|OpenAI",
-		"group": "OpenAI",
-		"group_icon": "/index/ai/voapi-1.ico"
+		"group": "openai"
+	}
+}
+```
+- 模型厂商信息
+```json
+{
+	"openai": {
+		"name": "OpenAI",
+		"icon": "/index/ai/voapi-1.ico",
+		"desc": "OpenAI介绍 **支持markdown**",
+		"notice": "OpenAI当前状态正常，你可以 [点此查看](https://status.openai.com)"
 	}
 }
 ```    
