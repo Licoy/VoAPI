@@ -131,7 +131,7 @@ docker-compose pull && docker-compose up -d
 		"tags": "对话|低价|OpenAI",
 		"group": "openai"
 	},
-  "gpt-4": {
+	"gpt-4": {
 		"note": "这是OpenAI的模型，介绍可以自定义 **支持markdown**",
 		"icon": "/index/ai/voapi-1.ico",
 		"tags": "对话|评分高|OpenAI",
