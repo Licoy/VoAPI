@@ -65,8 +65,10 @@ services:
     volumes:
       - ./data:/data
       - ./logs:/app/logs
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     environment:
-      - SQL_DSN=root:123456@tcp(host.docker.internal:3306)/voapi  # 修改此行，或注释掉以使用 SQLite 作为数据库
+      - SQL_DSN=root:123456@tcp(host.docker.internal:3306)/voapi?charset=utf8mb4&parseTime=True&loc=Local  # 修改此行，或注释掉以使用 SQLite 作为数据库
       - REDIS_CONN_STRING=redis://redis
       - SESSION_SECRET=random_string  # 启动前必须手动修改此值为随机字符串
       - TZ=Asia/Shanghai
