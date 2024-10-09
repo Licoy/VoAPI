@@ -42,6 +42,8 @@
 - [x] 屏蔽敏感词触发响应错误包含具体敏感字词信息
 - [x] 增加敏感词触发风控记录支持
 - [x] 增加全局转发API调用速率限制支持，环境变量：`GLOBAL_RELAY_RATE_LIMIT_ENABLE`=false、`GLOBAL_RELAY_RATE_LIMIT`=180、`GLOBAL_RELAY_RATE_LIMIT_DURATION`=180
+- [x] 增加用户余额每日清空支持，环境变量：`USER_DAILY_QUOTA_CLEAR`=false
+- [x] 增加钱包页公告支持
 - [ ] 增加第三方AI客户端动态嵌入支持
 - [ ] 增加Flux API的支持
 - [ ] 增加StabilityAI API的支持
