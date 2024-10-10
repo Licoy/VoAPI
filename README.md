@@ -46,7 +46,7 @@
 - [x] 增加钱包页公告支持
 - [x] 增加余额清零日期单位：`USER_DAILY_QUOTA_CLEAR_UNIT`=`DAY`/`WEEK`/`MONTH`，默认为`DAY`
 - [x] 增加Claude原生API格式请求支持
-- [ ] 增加第三方AI客户端动态嵌入支持
+- [x] 增加动态聊天页面无上限配置+路径参数魔法变量支持
 - [ ] 增加Flux API的支持
 - [ ] 增加StabilityAI API的支持
 - [ ] 增加可灵API的支持
